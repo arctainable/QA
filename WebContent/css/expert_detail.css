@@ -1,0 +1,96 @@
+	#join {
+		width:1024px;
+//		border:1px solid blue;
+		height:700px;
+		background:white;
+		box-shadow:0px 0px 1px gray;
+		padding:0px;
+	}
+	#container {
+		height:900px;
+		padding-top:200px;
+	}
+	.nav > li > a:focus {
+		background:#F2F2F2;
+	}
+	#join_top {
+		width:1024px;
+//		height:300px;
+//		border:1px solid black;
+		background:#F2F2F2;
+		margin-top:0px;
+	}
+	#join_middle{
+		width:1024px;     
+		height:600px;
+	}
+	#expert_main_one {
+		width:1024px;
+		height:235px;
+		border-bottom:1px solid #ffA2AD;
+		margin-top:5px;
+//		padding-bottom:10px;
+	}
+	.tab-content{
+		width:1024px;
+		height:300px;
+//		background:black;
+//		border:1px solid black;
+//		padding:20px;
+	}
+	.tab-pane {
+		padding:15px;
+	}
+	.tab-content .join_goods {
+		width:900px;
+		height:170px;
+//		background:black;
+//		border:1px solid black;
+		float:left;
+		margin-right:70px;
+		margin-left:40px;
+		margin-bottom:30px;
+		padding:20px;
+		background:white;
+		border-radius:5px;
+		box-shadow:0px 0px 5px gray;
+	}
+	.tab-content .join_goods:first-child {
+//		margin-top:30px;
+	}
+	.join_goods button {
+		border-radius:10px;
+		font-size:13px;
+		width:80px;
+		height:30px;
+	}
+	.tab-content .join_goods h4 {
+//		margin-left:10px;
+		width:700px;
+		height:26.4px;
+		margin:0px;
+		margin-bottom:10px;
+	}
+	.tab-content .join_goods .p1 {
+		float:right;
+	}
+	.p2 {
+		font-size:12px;
+		width:100%;
+		height:65px;
+	}
+	.join_riview {
+		width:100%;
+		height:150px;
+		padding:10px;
+		box-shadow:0px 0px 2px gray;
+		margin-bottom:15px;
+	}
+	
+	#expert_main_right {
+		margin-top:50px;
+		height:150px;
+	}
+	#expert_main_right button {
+		border-radius:10px;
+	}

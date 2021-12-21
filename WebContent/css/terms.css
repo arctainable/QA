@@ -1,0 +1,261 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 13px;
+    font-family: Tahoma,Sans-serif;
+}
+body {
+    margin: 0;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.mb_fwrap {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, dl, dt, dd, ul, li, ol, th, td, blockquote, form, fieldset, legend, p, div {
+    margin: 0;
+    padding: 0;
+}
+.mb_fwrap .mb_wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+.mb_fwrap .mb_wrap .mb_mid {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.steps {
+    margin-bottom: 20px;
+    overflow: hidden;
+    counter-reset: step;
+    text-align: center;
+}
+.theme-light .steps li {
+    color: #323232;
+}
+
+.steps li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.mb_fwrap .mb_wrap .mb_mid:not(:first-child) {
+    margin-top: 15px;
+}
+
+.theme-light .mb_fwrap .mb_wrap .mb_sign {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+}
+.frm {
+    width: auto;
+    position: relative;
+}
+.frm .item:first-child {
+    margin-top: 0;
+}
+.frm .item {
+    margin-top: 20px;
+}
+.urm-chk, .urm-rdo {
+    position: absolute;
+    opacity: 0;
+}
+
+[type="checkbox"], [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+//  box-sizing: border-box;
+//  margin: 3px 3px 3px 4px;
+//  padding: initial;
+    border: initial;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+//  appearance: auto;
+//  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+//  cursor: text;
+//  margin: 0em;
+    font: 400 13.3333px Arial;
+//  padding: 1px 2px;
+//  border-width: 2px;
+ // border-style: inset;
+//  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+//  border-image: initial;
+}
+.urm-chk:not(:last-child)+label, .urm-rdo:not(:last-child)+label {
+    margin-right: 10px;
+}
+
+.urm-chk+label, .urm-rdo+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+label {
+//    cursor: default;
+}
+.theme-light {
+    background-color: #e7e7e7;
+    color: #212121;
+}
+html {
+ //   -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 13px;
+    font-family: Tahoma,Sans-serif;
+}
+.theme-light .urm-chk:checked+label:before {
+    background: #1890ff;
+}
+.theme-light .urm-chk:checked+label:before, .theme-light .urm-rdo:checked+label:before {
+    border-color: #1890ff;
+}
+.theme-light .urm-chk+label:before, .theme-light .urm-rdo+label:before {
+ //   background: #fff;
+ //   border-color: #bfbfbf;
+}
+.urm-chk+label:before, .urm-rdo+label:before {
+    content: '';
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 14px;
+    height: 14px;
+    border-width: 1px;
+    border-style: solid;
+ //   border-radius: 2px;
+    -webkit-border-radius: 2px;
+//    -moz-border-radius: 2px;
+    transition: all 0.1s ease-in;
+}
+.urm-chk:checked+label:after {
+    content: '';
+    position: absolute;
+    left: 6.295px;
+    top: 2.905px;
+    width: 3.2px;
+    height: 6.4px;
+    border: 1.6px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    transform: rotate(45deg);
+//    transition: all 0.1s ease-in-back;
+}
+.frm .item {
+    margin-top: 20px;
+}
+.frm .g_text {
+    display: block;
+    width: 100%;
+}
+
+.theme-light input[type="text"], .theme-light input[type="password"], .theme-light input[type="search"], .theme-light input[type="number"], .theme-light select, .theme-light textarea {
+    color: #212121;
+    background: #fff;
+    border-color: #bfbfbf;
+}
+textarea {
+    min-height: 150px;
+    padding: 10px;
+    line-height: 1.6;
+    display: block;
+    resize: vertical;
+}
+input[type="text"], input[type="password"], input[type="search"], input[type="number"], select, textarea {
+    height: 34px;
+    line-height: 1.5;
+    padding: 4px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    overflow: visible;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+}
+textarea {
+    overflow: auto;
+}
+button, input, optgroup, select, textarea {
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+user agent stylesheet
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+.frm .item_hf {
+    margin-top: 10px;
+}
+.urm-chk:not(:last-child)+label, .urm-rdo:not(:last-child)+label {
+    margin-right: 10px;
+}
+.urm-chk+label, .urm-rdo+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}

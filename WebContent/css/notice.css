@@ -1,0 +1,444 @@
+	#container {
+		height:850px;
+		padding-top:60px;
+	}
+	tbody {
+		margin-top:50px;
+	}
+	#notice_main {
+		float:right;
+		width:1024px;
+		height:570px;
+//		background:black;
+		border-top:1px solid #ffA2AD;
+//		border:1px solid #ffA2AD;
+//		font-size:20px;
+//		margin-top:100px;
+	}
+	#notice_main_middle {
+		height:460px;
+//		background:yellow;
+		
+	}
+	#notice_main_middle_1 {
+		height:40px;
+		border-bottom:1px solid #ffA2AD;
+		font-size:16px;
+	}
+	#notice_main_middle_1_1 {
+		float:left;
+		width:100px;
+		height:7px;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+	}
+	#notice_main_middle_1_2 {
+		float:left;
+		width:460px;
+		height:7px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+	}	
+	#notice_main_middle_1_3 {
+		float:left;
+		width:130px;
+		height:7px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+	}
+	#notice_main_middle_1_4 {
+		float:left;
+		width:130px;
+		height:7px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+	}
+	#notice_main_middle_2 {
+		height:40px;
+//		border-bottom:1px solid #ffA2AD;
+		font-size:18px;
+	}
+		#notice_main_middle_2_1 {
+		float:left;
+		width:100px;
+		height:40px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+		border-bottom:1px solid #ffC5D0;
+	}
+	#notice_main_middle_2_2 {
+		float:left;
+		width:460px;
+		height:40px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:left;
+		padding-top:10px;
+		border-bottom:1px solid #ffC5D0;
+	}
+	#notice_main_middle_2_3 {
+		float:left;
+		width:110px;
+		height:40px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+		border-bottom:1px solid #ffC5D0;
+	}
+	#notice_main_middle_2_4 {
+		float:left;
+		width:130px;
+		height:40px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+		border-bottom:1px solid #ffC5D0;
+	}
+	 	#notice_main_middle_2_5 {
+		float:left;
+		width:113px;
+		height:40px;
+//		border-right:1px solid #ffA2AD;
+//		background:black;
+		text-align:center;
+		padding-top:10px;
+		border-bottom:1px solid #ffC5D0;
+	}
+	#notice_main_bottom {
+		height:100px;
+//		background:gray;
+	}	
+	#notice_main_bottom_1 {
+		width:800px;
+		text-align:center;
+	}
+	#notice_main_bottom_1 {
+		position:absolute;
+		left:45%;
+		margin-top:1%;
+		width:500px;
+		height:27px;
+		
+	}
+	#notice_main_bottom_1 a{
+		position:relative;
+		border:1px solid #ffA2AD;
+		width:20px;
+		height:25px;
+		float:left;
+		font-size:13px;
+		margin:0px auto;
+		padding-top:2px;
+	}
+	#notice_main_bottom_1 a.active{
+		background:#ffc5d0;
+	}	
+	#notice_main_bottom_2 {
+		width:54px;
+		float:right;
+//		background:black;
+		margin-top:13px;
+	}
+	#notice_main_bottom_2 button {
+		float:right;
+		margin-right:30px;
+		border:0px solid black;
+		border-radius:5px;
+		width:50px;
+		height:25px;
+		background:#F7B3C2;
+		text-align:center;
+	}
+	#notice_main_bottom_3 {
+//		width:100%;
+//		height:100%;
+//		background:black;
+	}
+	.select {
+		float:left;
+		margin-top:10px;
+		margin-left:5px;
+	}
+	#notice_main_bottom_3 div button{
+	//	width:300px;
+		float:left;
+		margin-top:10px;
+		margin-left:5px;
+		border-radius:3px;
+		text-decoration:none;
+		width:50px;
+		height:20px;
+		border:0px;
+		background:#F7B3C2;	
+		font-size:10px;
+	}
+	#location {
+//		width:50px;
+		float:left;
+		margin-top:12px;
+		margin-left:10px;
+	}
+	#location option {
+		text-align:center;
+	}	
+	#searchtext input {
+		width:100px;
+		height:20px;
+		float:left;
+		margin-top:10px;
+		margin-left:5px;
+	}
+	/*********************/
+	
+	#join {
+//		margin-top:40px;
+		width:1024px;
+//		height:90%;
+//		border:1px solid blue;
+
+	}
+	#join_left {
+		float:left;
+		width:250px;
+		height:500px;
+//		background:gray;
+	}
+	#join_left p {
+		width:250px;
+		height:45px;
+		background:#white;
+		text-align:center;
+		padding-top:20px;
+		font-size:20px;
+	}
+	#join_left li {
+		wider:245px;
+		height:31px;
+//		background:green;
+//		border-top:1px dotted gray;
+		border-bottom:2px dotted #ffA2AD;
+		padding-left:25px;
+		padding-top:9px;
+	}
+	#join_right {
+		float:right;
+		width:1024px;
+		height:500px;
+//		background:yellow;
+	}
+	table {
+		width:100%;
+		height:400;
+		border:none;
+	}
+	tbody tr td {
+//		text-align:center;
+		border-top:1px solid #ffA2AD;
+//		border-bottom:1px solid #ffA2AD;
+	}
+	tbody tr td:first-child {
+		text-align:center;
+//		border:none;
+	}	
+	#tbody_last {
+		border-top:1px solid #ffA2AD;
+	}
+	fieldset {
+		border:0px;     
+	}
+	legend {
+		font-size : 20px;
+//		font-weight : bold;
+//		font-style : italic;
+		color:black;
+		margin-left:10px;
+		border:1px;
+	}
+	#center-right {
+		margin-top: 5px;
+		text-align: center;
+	}
+	#center-right input {
+		width:100px;
+		height:60px;
+		background:#ffA2AD;
+		border:none;
+		border-radius:5px;
+	}
+
+ a:link { color: black; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: black; text-decoration: underline;}
+ 
+ 	/************************ 게시판글쓰기&보기 ***************************/
+	
+	#noticewrite_main {
+		float:right;
+		width:754px;
+		height:570px;
+//		background:black;
+		border-top:1px solid #ffA2AD;
+//		border:1px solid #ffA2AD;
+		font-size:13px;
+	}
+	#noticewrite_main_top {
+		height:30px;
+//		background:black;
+//		text-align:right;
+		padding-top:20px;
+		border-bottom:1px solid #ffA2AD;
+	}
+	#noticewrite_main_top div {
+//		float:right;
+		margin-right:3px;
+	}
+	#noticewrite_main_middle {
+		height:460px;
+//		background:yellow;
+//		border-bottom:1px solid #ffA2AD;
+	}
+	#noticewrite_main_bottom {
+//		height:100px;
+//		background:gray;
+	}	
+	
+	#noticewrite_main_top_1 {
+		float:left;
+	}
+	#noticewrite_main_top_2 {
+		float:right;
+	}
+	#noticewrite_main_top_2 input {
+		width:500px;
+		margin-right:148px;
+//		font-size:13px;
+	}
+	#noticewrite_main_top_2_see {
+		float:right;
+	}
+	#noticewrite_main_top_2_see input {
+		width:500px;
+		margin-right:148px;
+//		font-size:13px;
+		border:none;
+	}
+	#noticewrite_main_middle_1 {
+		width:754px;
+		height:320px;
+//		background:red;
+		border-bottom:1px solid #ffA2AD;
+	}
+	#noticewrite_main_middle_1_1 {
+		float:left;
+		margin-top:140px;
+		margin-bottom:10px;
+		height:170px;
+	}
+	#noticewrite_main_middle_1_2 {
+		float:right;
+//		border-bottom:1px solid #ffA2AD;
+		display:block;
+		word-break:normal;
+		border:none;		
+	}
+	#noticewrite_main_middle_1_2 textarea{
+		float:right;
+		width:500px;
+		height:300px;
+		margin-right:150px;
+		margin-top:10px;
+		margin-bottom:10px;
+		display:block;
+		word-break:normal;
+		resize: none;
+	}
+	#noticewrite_main_middle_1_2_see {
+		float:right;
+//		border-bottom:1px solid #ffA2AD;
+		display:block;
+		word-break:normal;
+	}
+	#noticewrite_main_middle_1_2_see textarea{
+		float:right;
+		width:500px;
+		height:300px;
+		margin-right:150px;
+		margin-top:10px;
+		margin-bottom:10px;
+		display:block;
+		word-break:normal;
+		border:none;
+		resize: none;
+	}
+	#noticewrite_main_middle_2 {
+		width:754px;
+		height:50px;
+//		background:red;
+		border-bottom:1px solid #ffA2AD;
+	}
+	
+	#noticewrite_main_middle_2_1 {
+		float:left;
+		width:110px;
+		margin-top:14px;	
+	}	
+	#noticewrite_main_middle_2_2 {
+		float:left;
+		margin-top:14px;
+		width:250px;
+	}
+	#noticewrite_main_middle_2_3 {
+		float:left;
+		margin-top:14px;
+		width:100px;
+	}
+	#noticewrite_main_middle_2_4 {
+		float:left;
+		margin-top:14px;
+		width:100px;
+	}
+	#noticewrite_main_bottom {
+		width:754px;
+		height:100px;
+		margin-left:36%;
+		margin-top:30px;
+	}
+	#noticewrite_main_bottom button {
+		width:80px;
+		height:40px;
+		border:0px solid black;
+		border-radius:5px;
+		background:#F7B3C2;
+		font-size:13px;
+	}
+	#noticewrite_main_bottom_see {
+		width:754px;
+		height:100px;
+		margin-left:23%;
+		margin-top:0px;
+	}
+	#noticewrite_main_bottom_see button {
+		width:80px;
+		height:40px;
+		border:0px solid black;
+		border-radius:5px;
+		background:#F7B3C2;
+		font-size:13px;
+	}
+	.font1 {
+		font-size:11px;
+		color:#F7B3C2;
+	}
+	
+	/*********************** 게시판글쓰기&보기 끝 **************************/

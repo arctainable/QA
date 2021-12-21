@@ -1,0 +1,273 @@
+<html>
+<head>
+<title>안재현_회원가입</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+<style type="text/css">
+* {padding:0; margin:0;}
+li{list-style-type:none;}
+a{text-decoration:none;}
+body{background:url("images/top_back_back.jpg") repeat-x 0px 100px; }
+#container {
+	margin: 0 auto;
+	width:1024px;
+}
+#top_menu {
+	width:1024px;
+	height:100px;
+	background:#F6F6F8;
+}
+#top_menu_quick {
+	float:right;
+}
+#top_menu_quick li {
+	display:inline;
+}
+#top_menu_quick li a {
+	float:left;
+	width:60px;
+	height:16px;
+	margin-left:5px;
+	font-size:10px;
+	color:#56584F;
+	text-align:center;
+}
+#top_menu_left {
+	float:left;
+}
+#top_menu_left li {
+	display:inline;
+}
+#top_menu_left li a {
+	float:left;
+
+}
+.snsBasic img{
+	width:22px;
+	height:16px;
+}
+.snsUtu img{ 
+	width:22px;
+	height:16px;
+}
+#top_main {
+	width:1024px;
+	height:200px;
+	background:#D0A9F5;
+}
+#content {
+	width:1012px;
+//	height:388px;
+	padding:6px;
+	background:yellow;
+	margin-top:40px;
+}
+#content:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+#content_left {
+	float:left;
+	width:600px;
+	height:388px;
+	background:red;
+}
+	#content_left div p img {
+		width:148.5px;
+		height:128px;
+	}
+	#content_left div {
+		width:600px;
+		height:128px;
+		margin-bottom:2px;
+		background:green;
+	}
+	#content_left div:last-child {
+		margin-bottom:0px;
+	}
+	#content_left div p {
+		float:left;
+		width:148.5px;
+		height:128px;
+		margin-right:2px;
+		background:purple;
+	}
+	#content_left div p:last-child {
+		margin-right:0px;
+	}
+#content_right {
+	float:right;
+	width:400px;
+	height:388px;
+}
+	#content_right div {
+		width:400px;
+		height:190px;
+		background:white;
+	}
+	#content_right div:first-child {
+		margin-bottom:8px;
+	}
+#content2 {
+	position: relative;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+	#content2 button {
+	width:180px;
+	height: 70px;
+	font-size: 16px;
+	border:1px solid gray;
+	border-radius: 15px;
+	background:white;
+	transition:0.3s;
+	position: absolute;
+	top: 69%;
+	left: 9.5%;
+	}
+#footer {
+	width:1024px;
+	height:68px;
+	background:gray;
+}
+</style>
+</head>
+<body>
+<form action="연습용_로그인폼.html">
+<div id="container">
+<style>
+	#login-box {
+		width:400px;
+		height:400px;
+		margin:auto;
+		border-radius:10px;
+		margin-top:30px;
+		text-align:center;
+	}
+	#main {
+		text-align:center;
+		font-size:30px;
+	}
+	.button {
+		width:288px; 
+		height:40px;
+		background-color:#1890ff;
+		color:white;
+		border-radius:5px;
+		border:1px #1890ff;
+	}
+	.box {
+		width:300px;height:40px;font-size:13px;
+	}
+	.adbox {
+		width:87.8px;height:40px;font-size:13px;
+	}
+	.mlbox {
+		width:86.5px;height:40px;font-size:13px;
+	}
+	#box1 {
+		margin:auto;
+		width:310px;
+		background:#e7e7e7;
+		border-radius:10px;
+		padding-bottom:6px;
+		margin-bottom:10px;
+	}
+	#box2 {
+		margin:auto;
+		width:310px;
+		background:#e7e7e7;
+		border-radius:10px;
+		padding-bottom:6px;
+	}
+	.idpw1 {
+		margin-bottom:10px;
+	}
+	#box1 div div {
+		margin-bottom:3px;
+	}	
+	.fj {
+		text-align:center;
+		margin-top:20px;
+		margin-bottom:5px;
+		font-size:20px;
+	}
+	#sns-box {
+		text-align:center;
+		display: block;
+		text-align: center;
+		background:white;
+		width:300px;
+		margin:auto;
+		border-radius:10px;
+	}
+	#sns-box a img {
+		margin: 5px;
+	}
+</style>		
+		<div id="login-box">
+			<div id="box1">
+				<div id="main">
+					<i class="fas fa-sign-in-alt"></i> 회원가입
+				</div>
+				<div class="idpw1">
+					<div class="id">
+						<input type="text" name="id" id="id" size="12" maxlength="20" id="id"  required="" class="box" placeholder="아이디" value="">
+					</div>
+					<div class="pw">
+						<input type="password" name="password" id="pw" required="" class="box" placeholder="비밀번호" value="">
+					</div>
+					<div class="pw">
+						<input type="password" name="password" id="pw" required="" class="box" placeholder="비밀번호확인" value="">
+					</div>
+				</div>	
+				<div class="idpw2">
+					<div class="name">
+						<input type="text" name="name" id="name" size="12" maxlength="10" id="name"  required="" class="box" placeholder="이름" value="">
+					</div>
+					<div class="address">
+						<input type="text" name="address" id="address" required="" class="adbox" placeholder="010" value=""> -
+						<input type="text" name="address" id="address" required="" class="adbox" placeholder="xxxx" value=""> -
+						<input type="text" name="address" id="address" required="" class="adbox" placeholder="xxxx" value="">
+					</div>
+					<div class="email">
+						<input type="text" name="email" id="email" required="" class="mlbox" placeholder="email" value=""> @
+						<input type="text" name="email" id="email" required="" class="mlbox" placeholder="email" value="">
+						<select id="selbox" name="selbox">
+
+	<option value="">선택</option>
+
+	<option value="1">naver.com</option>
+
+	<option value="2">gmail.con</option>
+
+	<option value="3">hanmail.net</option>
+
+	<option value="direct">직접입력</option>
+
+</select>
+					</div>
+				</div>
+			</div>
+			<div>
+				<button type="submit" class="button">회원가입</button>
+			</div>
+			<div id="box2">
+			<div class="fj">
+				<a class="find"><i class="fas fa-user-check"></i>간편회원가입</a>
+			</div>
+			<div id="sns-box">
+				<a href=""><img src="images/구글.png"></span></a>
+				<a href=""><img src="images/페이스북.png"></span></a>
+				<a href=""><img src="images/카카오.png"></span></a>
+				<a href=""><img src="images/네이버.png"></span></a>
+			</div>
+			</div>
+		</div>
+	</div>
+	</form>
+</body>
+</html>

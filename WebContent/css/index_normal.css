@@ -1,0 +1,321 @@
+
+#footer{
+	position:relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 120px;
+	background:#c1bcc0;
+	margin-top:100px;
+	float:left;
+	}	
+	
+	#footer div{
+	background:#c1bcc0;
+}
+#footer_left{
+	float:left;
+	height:120px;
+	width:250px;
+//	background:yellow;
+	position:relative;
+	margin-left:25%;
+}
+#footer_left img {
+	width:120px;
+	height:120px;
+	margin-left:0px;
+}
+#footer_center{
+	float:left;
+	height:120px;
+	padding-top:30px;
+	width:500px;
+	font:10px "myFont_1";
+	color:#fff;		
+	background:green;
+}
+#footer_center p{
+	font:8px "myFont_1";
+	color:#fff;
+	margin-bottom:10px;	
+}	
+#footer_right{
+	float:left;
+	height:120px;
+	width:212px;
+	padding-top:30px;
+	padding-left:60px;
+//	background:purple;
+	font:8px "myFont_1";
+	color:#fff;		
+}
+
+	
+	
+/******************************** 관심분야 ***********************************/ 
+
+.box {
+	width:100%;
+	height:1000px;	
+//	border:1px solid red;
+}
+.interest {
+	float:left;
+	width:17%;
+	height:500px;
+//	border:1px solid black;
+	margin-right:3%;
+	padding-top:20px;
+	background:#F2F2F2;
+}
+.interest ul{
+	width:100%;
+	height:30px;
+	padding-left:20px;
+	padding-top:3%;
+}
+.interest ul:hover{
+	background:#F2F2F2;
+	border:1px solid black;
+	border-radius:5px;
+}
+.interest ul:last-child{
+	margin-top:0%;
+}
+
+/***************************** 관심분야 끝 ***********************************/
+
+
+/***************************** 글쓰기 모달 *************************************/
+.modal-content {
+	width:600px;
+	height:600px;
+}
+.modal-body {
+	height:450px;
+}
+
+.form-group textarea {
+	width:100%;
+	height:78%;
+	display:block;
+	word-break:normal;
+	resize: none;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+	
+}
+.modal-footer input {
+	float:left;
+}
+
+/*************************** 글쓰기 모달 끝 ************************************/
+
+/**************************** 질문답 글쓰기 ***********************************/
+
+.content_list {
+	float:left;
+	width:70%;
+	height:100%;
+//	border:1px solid red;
+	background:#F2F2F2;
+	min-height: 100%;
+}
+.content_write {
+	width:95%;
+	height:100px;
+//	border: 1px solid red;
+	background:white;
+	border-radius:10px;
+	color:#848484;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:30px;
+	box-shadow: 2px 2px 2px;
+}
+.content_write a:hover {
+	color:#848484;
+}
+.content_write a:link {
+	color:#848484;
+}
+.content_write a {
+	width:100%;
+	height:100px;
+	text-align:left;
+	color:#848484;
+}
+.content_write ul:first-child {
+	font-size:23px;
+	color:#848484;
+}
+.content_write img {
+	width:50px;
+	height:50px;
+	margin-left:40px;
+	border-radius:10px;
+	margin-top:5px;
+	border: 3px solid #ffA2AD;
+}
+.content_write ul:last-child {
+	font-size:18;
+	margin-left:100px;
+	color:#848484;
+	line-height:2px;
+}
+
+/**************************** 질문답 글쓰기 끝 **********************************/
+
+/***************************** 질문답 글보기  **********************************/
+
+.content_post {
+	width:95%;
+	height:57%;
+//	border: 1px solid red;
+	background:white;
+	border-radius:10px;
+	color:#848484;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:30px;
+	box-shadow: 2px 2px 2px;
+}
+.content_post_image img{
+	margin:auto;
+	margin-left:3%;
+	margin-top:3%;
+}
+
+.content_post_word {
+	width:100%;
+//	height:60%;
+	background:white;
+//	border:1px solid red;
+	box-shadow: 2px 2px 2px;
+}
+.content_post_word_text {
+//	border:1px solid red;
+//	padding-left:3%;
+//	width:100%;
+	margin-left:3%;
+	margin-right:3%;
+	margin-top:3%;
+	font-size:17px;
+	padding-bottom:10px;
+	border-bottom:1px solid gray;
+	
+}
+.theb {
+	color:black;
+}
+.theb2 {
+	font-size:15px;
+	background:white;
+	border-radius:10px 10px 0px 0px;
+}
+.content_post_comment {
+	width:100%;
+	height:10%;
+	background:white;
+	border-radius:0px 0px 10px 10px;
+	margin-bottom:3%;
+	box-shadow: 2px 2px 2px;
+	
+}
+.content_post_comment1 {
+	float:left;
+	width:25%;
+	height:68%;
+//	border:1px solid red;
+	margin-right:65px;
+	margin-left:20px;
+	margin-top:10px;
+	text-align:center;
+	padding-top:1.5%;
+}
+.content_post_comment1 button {
+	background:white;
+	border:0px;
+}
+.content_post_comment1 button:hover {
+	color:blue;
+}
+.content_post_comment2 {
+	float:left;
+	width:25%;
+	height:68%;
+//	border:1px solid red;
+	margin-right:65px;
+	margin-top:10px;
+	text-align:center;
+	padding-top:1.5%;
+	text-decoration:none;
+}
+.content_post_comment2 button {
+	background:white;
+	border:0px;
+}
+.content_post_comment2 button:hover {
+	color:blue;
+}
+.content_post_comment3 {
+	float:right;
+	width:25%;
+	height:68%;
+//	border:1px solid red;
+	margin-right:20px;
+	margin-top:10px;
+	text-align:center;
+	padding-top:1.5%;
+
+}
+.content_post_comment3 button {
+	background:white;
+	border:0px;
+}
+.content_post_comment3 button:hover {
+	color:blue;
+}
+/**************************** 질문답 글보기 끝 **********************************/
+
+/*************************** 공지사항 추천 질문답 ********************************/
+
+ a:link { color: red; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: blue; text-decoration: underline;}
+
+#notice_list {
+	float:left;
+	width:100%;
+	height:500px;
+//	background:red;
+	margin-bottom:0px;
+}
+.recommend_list_faq {
+	float:left;
+	width:100%;
+	height:200px;
+//	background:red;
+	margin-bottom:30px;
+	line-height:30px;
+}
+.recommend_list_faq li:hover {
+	background:#58FAF4;
+	text-decoration:none;
+}
+.recommend_list_kin {
+	float:left;
+	width:100%;
+	height:200px;
+//	background:red;
+//	margin-bottom:30px;	
+	line-height:30px;
+}
+.recommend_list_kin li:hover {
+	background:#58FAF4;
+	text-decoration:none;
+}

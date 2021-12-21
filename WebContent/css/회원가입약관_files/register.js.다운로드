@@ -1,0 +1,27 @@
+function fregister_submit(f)
+{
+	if (!f.agree.checked) {
+		alert("회원가입약관의 내용에 동의하셔야 회원가입 하실 수 있습니다.");
+		f.agree.focus();
+		return false;
+	}
+
+	if (!f.agree2.checked) {
+		alert("개인정보처리방침안내의 내용에 동의하셔야 회원가입 하실 수 있습니다.");
+		f.agree2.focus();
+		return false;
+	}
+
+	return true;
+}
+
+jQuery(function($){
+	// 모두선택
+	$("input[name=chk_all]").click(function() {
+		if ($(this).prop('checked')) {
+			$("input[name^=agree]").prop('checked', true);
+		} else {
+			$("input[name^=agree]").prop("checked", false);
+		}
+	});
+});

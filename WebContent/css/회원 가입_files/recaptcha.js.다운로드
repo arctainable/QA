@@ -1,0 +1,25 @@
+function chk_captcha()
+{
+	if (!jQuery('#g-recaptcha-response').val()) {
+        grecaptcha.execute('6LffWp8UAAAAAH6oTzsGmwKx4LtTHRw8BXiC9YYd', {action: 'create_comment'}).then(function(token) {
+				document.getElementById('g-recaptcha-response').value = token;
+				var frm = jQuery('#g-recaptcha-response').closest("form");
+				if(frm.find("button[type=submit]").length > 0) frm.find("button[type=submit]").click();
+				else if(frm.find("input[type=submit]").length > 0) frm.find("input[type=submit]").click();
+		});
+		return false;
+	}
+
+	return true;
+}
+
+function recaptcha_validate(token) {
+    var $form = jQuery("#g-recaptcha-response").closest("form"),
+        form_id = $form.attr("id");
+
+
+    if( $form.length ){
+        $form.submit();
+    }
+
+}

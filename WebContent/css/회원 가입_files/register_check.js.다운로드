@@ -1,0 +1,107 @@
+var prev_mb = [];
+var reg_check = function(obj) {
+    var result = "";
+    $.ajax({
+        type: "POST",
+        url: g5_bbs_url+"/ajax."+obj+".php",
+        data: {
+            "reg_mb_id": encodeURIComponent($("#reg_mb_id").val()),
+            "reg_mb_nick": $("#reg_mb_nick").val(),
+            "reg_mb_email": $("#reg_mb_email").val()
+        },
+        async: false,
+        success: function(data) {
+            result = data;
+        }
+    });
+    return result;
+}
+
+function mb_chk(obj){
+		if(prev_mb[obj] != $("#reg_"+obj).val()){
+			prev_mb[obj] = $("#reg_"+obj).val();
+			var msg = reg_check(obj);
+			if(msg){
+				msg_res(obj,msg);
+			}
+		}
+}
+
+function msg_res(obj,msg){
+		$("#msg_"+obj).removeClass("dno").text(msg);
+		$("#reg_"+obj).one("keyup","",function() {
+			$("#msg_"+obj).addClass("dno");
+			$(this).removeClass("inp-err");
+			prev_mb[obj] = "";
+		}).addClass("inp-err");
+}
+
+function fregisterform_submit(f,sc)
+{
+	if(sc === undefined) {
+		sc = false;
+	}
+	var obj,msg;
+
+	if(sc == false){
+		obj = "mb_id";
+		msg = reg_check(obj);
+		if (msg) {
+			msg_res(obj,msg);
+			return false;
+		}
+
+		if (f.mb_password.value.length < 3) {
+			msg_res("mb_password","비밀번호를 3글자 이상 입력하십시오.");
+			return false;
+		}
+
+		if (f.mb_password.value != f.mb_password_re.value) {
+			msg_res("mb_password_re","비밀번호가 같지 않습니다");
+			f.mb_password_re.focus();
+			return false;
+		}
+	}
+
+	obj = "mb_nick";
+	msg = reg_check(obj);
+	if (msg) {
+		msg_res(obj,msg);
+		return false;
+	}
+
+	obj = "mb_email";
+	msg = reg_check(obj);
+	if (msg) {
+		msg_res(obj,msg);
+		return false;
+	}
+	
+	if(sc == false){
+		if (!chk_captcha()) return false;
+	}
+
+	$(f).find("button[type='submit']").text("전송중").prop("disabled", true);
+	return true;
+}
+
+$(document).ready(function() {
+	$("input#reg_mb_id,input#reg_mb_nick,input#reg_mb_email").focusout(function() {
+		if($(this).val().length > 0){
+			var obj = $(this).attr("id").replace("reg_","");
+			mb_chk(obj);
+		}
+	});
+});
+
+function flogin_submit(f)
+{
+	var mb_id = $.trim($(f).find("input[name=mb_id]").val()),
+		mb_password = $.trim($(f).find("input[name=mb_password]").val());
+
+	if(!mb_id || !mb_password){
+		return false;
+	}
+
+	return true;
+}
